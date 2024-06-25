@@ -1,0 +1,33 @@
+<app-header></app-header>
+<a routerLink="/add/" class="btn btn-info" id="link">ADD EMPLOYEE</a>
+
+<div class="table">
+  <table class="table table-bordered">
+    <thead class="table-dark">
+        <tr>
+            <th>S.NO</th>
+            <th>NAME</th>
+            <th>AGE</th>
+            <th>GENDER</th>
+            <th>EMAIL</th>
+            <th>PHONE</th>
+            <th>CITY</th>
+            <th>EDIT DATA</th>
+            <th>DELETE DATA</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let i of array; let in=index">
+        <td>{{in+1}}</td>
+        <td>{{i.name | uppercase}}</td>
+        <td>{{i.age}}</td>
+        <td>{{i.gender}}</td>
+        <td>{{i.mail}}</td>
+        <td>{{i.phone}}</td>
+        <td>{{i.city | uppercase}}</td>
+        <td><a routerLink="/edit/{{i.id}}" class="btn btn-info">EDIT</a></td>
+        <td><button type="button" class="btn btn-danger" (click)="delete(i.id)">DELETE</button></td>
+        </tr>
+    </tbody>
+  </table>
+</div>
