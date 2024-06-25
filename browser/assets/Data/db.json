@@ -1,0 +1,67 @@
+{
+  "Datas": [
+    {
+      "id": "7c06",
+      "name": "HILURU MOHAMED M B",
+      "age": 25,
+      "gender": "Male",
+      "mail": "hm8258@srmist.edu.in",
+      "phone": "739702244",
+      "city": "CHENNAI"
+    },
+    {
+      "id": "21ee",
+      "name": "KUMAR",
+      "age": 25,
+      "gender": "Male",
+      "mail": "kumar123@gmail.com",
+      "phone": "9968898455",
+      "city": "HYDERABAD"
+    },
+    {
+      "id": "d5e3",
+      "name": "NAFEEL AHAMED",
+      "age": 30,
+      "gender": "Male",
+      "mail": "nafeel@srmist.edu.in",
+      "phone": "8955577899",
+      "city": "BANGLORE"
+    },
+    {
+      "id": "415d",
+      "name": "RAM",
+      "age": 25,
+      "gender": "Male",
+      "mail": "ram456@gmail.com",
+      "phone": "8896478755",
+      "city": "TRIVANDURAM"
+    },
+    {
+      "id": "9e2c",
+      "name": "RAJA RAJAN",
+      "age": 45,
+      "gender": "Male",
+      "mail": "raja123@gmail.com",
+      "phone": "9985255455",
+      "city": "KOCHI"
+    },
+    {
+      "id": "ae28",
+      "name": "JOHN",
+      "age": 48,
+      "gender": "Male",
+      "mail": "john456@gmail.com",
+      "phone": "9974458455",
+      "city": "TRISSUR"
+    },
+    {
+      "id": "1664",
+      "name": "BALAJI SURESH",
+      "age": 25,
+      "gender": "Male",
+      "mail": "suraish@gmail.com",
+      "phone": "8785854552",
+      "city": "COIMBATORE"
+    }
+  ]
+}
